@@ -1,0 +1,179 @@
+body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.card-title, .navbar-brand, .head-text, .pr-name, .pr-price, .reg-cont, .new-user, .no-it, .no-of-cart-items {
+  font-weight: bold;
+}
+
+.categories, .shp-w-cat, .head-slogan, .prod-img, .reg-cont, .new-user, .ask, .al-msg, .no-items, .no-of-cart-items, .check-all {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+}
+
+.categories {
+  padding-top: 1%;
+}
+
+.the-cat {
+  margin: 2% 2%;
+}
+
+.shp-w-cat {
+  padding-bottom: 1%;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 5px;
+  padding-top: 1%;
+}
+
+.head-img {
+  width: 100%;
+  padding-top: 4%;
+}
+
+.head-slogan {
+  position: absolute;
+  color: #FFE1E1;
+  padding-top: 60%;
+}
+
+.head-text {
+  font-size: 7rem;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  padding: 10%;
+  border: 1px solid;
+  box-shadow: 5px 10px #888888;
+}
+
+.card-title, .card-body {
+  font-size: 1.5rem;
+}
+
+.products {
+  margin-top: 2%;
+}
+
+.fa-star {
+  color: #F0E161;
+}
+
+.carousel {
+  width: 50%;
+  margin: 2% auto 0;
+}
+
+.pr-img {
+  margin-top: 6%;
+  margin-bottom: 2%;
+}
+
+.prod-info {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.lin-ht {
+  line-height: 2;
+}
+
+.fin-but {
+  padding-bottom: 3%;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.reg-cont {
+  margin-top: 2%;
+}
+
+.reg-info {
+  width: 90%;
+  line-height: 2;
+}
+
+.reg-btn {
+  margin-top: 2%;
+}
+
+.new-user {
+  line-height: 3;
+}
+
+.wel-img {
+  width: 90%;
+  border-radius: 8px;
+}
+
+.log {
+  width: 100%;
+}
+
+.al-msg {
+  color: red;
+}
+
+.no-items {
+  margin-top: 5%;
+}
+
+.no-it {
+  font-size: 4rem;
+}
+
+.no-it-img {
+  width: 30%;
+}
+
+.no-it-btn {
+  margin-top: 1%;
+}
+
+.pr-card {
+  height: 100%;
+  width: 100%;
+  padding: 0.5%;
+  border: 1px solid;
+  box-shadow: 5px 10px #888888;
+}
+
+.pr-cart-img {
+  width: 60%;
+}
+
+.no-of-cart-items {
+  margin-top: 6%;
+  color: green;
+}
+
+.total {
+  background-color: grey;
+  padding: 2%;
+}
+
+.end {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.end-pr {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.the-it {
+  padding-bottom: 12%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Lato:wght@100;300;400;700;900&family=Playfair+Display:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+
+<body>
+  <h1 class="new-user">Welcome to our small family :)</h1>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-6">
+        <img class="wel-img" src="https://media4.giphy.com/media/dZXzmKGKNiJtDxuwGg/200.webp?cid=ecf05e47ffufsmuesd56kxnw502vmbbqoxr6rnstwp4nrvgx&rid=200.webp&ct=g" alt="">
+      </div>
+      <div class="col-6">
+
+        <h1 class="reg-cont">REGISTER</h1>
+        <div class="container reg-info">
+          <form action="{{ url_for('register') }}" method="post">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" name="email" class="form-control" id="validationDefault01" aria-describedby="emailHelp" placeholder="Enter email" required>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" name="password" class="form-control" id="validationDefault01" placeholder="Set new password" required>
+            </div>
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" class="form-control" name="name" id="validationDefault01" aria-describedby="emailHelp" placeholder="Enter name" required>
+            </div>
+            <button type="submit" class="reg-btn btn btn-dark">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
